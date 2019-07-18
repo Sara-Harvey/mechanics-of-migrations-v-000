@@ -6,14 +6,10 @@ class CreateArtists < ActiveRecord::Migration[5.2]
  
   def down
   end
-  
-  def change
-  end
-end
 
-def change
-  create_table :artists do |t|
-  end
+  def change
+    create_table :artists do |t|
+    end
 end
 
 class CreateArtists < ActiveRecord::Migration[4.2]
